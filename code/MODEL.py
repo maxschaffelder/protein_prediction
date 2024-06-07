@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegressionshe
 
-filename = "natural_proteins.csv"
+filename = "/Users/maxschaffelder/Desktop/Academia/UCG/Archive/2.4/Project_Year_2/protein_prediction/data/natural_proteins.csv"
 df = pd.read_csv(filename)
 
 choice = input("Enter 'sheets' or 'helices': ")
